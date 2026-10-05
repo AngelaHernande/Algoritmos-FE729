@@ -12,4 +12,10 @@ Algoritmo NotasEjemplo
 	
 	resultado <- nota1 + nota2 + examenfinal
 	Escribir "Su nota final es: ", resultado
+	
+	Si resultado > 61 Entonces
+		Escribir "Aprobado"
+	SiNo
+		Escribir "Reprobado"
+	FinSi
 FinAlgoritmo
